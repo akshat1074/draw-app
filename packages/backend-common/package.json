@@ -6,13 +6,16 @@
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "dependencies": {
-    "@repo/db":"workspace:*"
+    "@repo/db": "workspace:*"
   },
   "devDependencies": {
-    "@repo/typescript-config":"workspace:*",
-    "@repo/backend-common":"workspace:*",
-    "@repo/common":"workspace:*"
-
+    
+    "@repo/common": "workspace:*",
+    "@repo/typescript-config": "workspace:*",
+    "@types/node": "^25.0.8"
+  },
+  "exports":{
+     "./config":"./src/index.ts"
   },
   "keywords": [],
   "author": "",
