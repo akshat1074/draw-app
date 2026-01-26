@@ -15,5 +15,5 @@ export function Canvas({
         game?.setTool(selectedTool);
     },[selectedTool,game]);
 
-    
+
 }
